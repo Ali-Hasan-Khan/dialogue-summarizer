@@ -2,8 +2,11 @@
 from transformers import TrainingArguments, Trainer
 from transformers import DataCollatorForSeq2Seq
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from textSummarizer.config.configurations import ModelTrainerConfig
+import torch_directml
 from datasets import load_dataset, load_from_disk
 import torch
+import os
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
