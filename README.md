@@ -18,7 +18,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/Ali-Hasan-Khan/dialogue-summarizer
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -50,7 +50,6 @@ open up you local host and port
 
 ```bash
 Author: Ali Hasan Khan
-Data Scientist
 Email: alihasank86@gmail.com
 
 ```
